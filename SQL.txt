@@ -1,0 +1,18 @@
+insert into employee (name, age, address, salary) values ('Abie Wheaton', 18, '71 Chinook Crossing', 1000);
+insert into employee (name, age, address, salary) values ('Opalina Cinelli', 28, '9318 Evergreen Alley', 20000);
+insert into employee (name, age, address, salary) values ('Damara Godilington', 32, '37960 Towne Circle', 3000);
+insert into employee (name, age, address, salary) values ('Adan Frill', 48, '21208 Crescent Oaks Pass', 3400);
+insert into employee (name, age, address, salary) values ('Aubine McFall', 35, '40 Reindahl Trail', 4005);
+insert into employee (name, age, address, salary) values ('Irina Shakle', 26, '850 Aberg Court', 6000);
+insert into employee (name, age, address, salary) values ('Tymon Peart', 27, '441 Delaware Street', 7000);
+insert into employee (name, age, address, salary) values ('Ricki Genn', 28, '6654 Scott Plaza', 8000);
+
+CREATE TABLE employee (
+    id int IDENTITY(1,1) PRIMARY KEY,
+    name varchar(255),
+    age varchar(255),
+    address varchar(255),
+    salary varchar(255)
+);
+
+
